@@ -1,0 +1,17 @@
+dependencies: \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageMotionDetector.m \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/build/Pods.build/Debug-iphoneos/GPUImage.build/module.modulemap \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/Target\ Support\ Files/GPUImage/GPUImage-prefix.pch \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageMotionDetector.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageFilterGroup.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageOutput.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/iOS/GPUImageContext.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GLProgram.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageFramebuffer.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageFramebufferCache.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageFilter.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageLowPassFilter.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageBuffer.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageDissolveBlendFilter.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageTwoInputFilter.h \
+  /Users/mastmac/Desktop/Love\ In\ A\ Snap/Love\ In\ A\ Snap\ Final/Pods/GPUImage/framework/Source/GPUImageAverageColor.h

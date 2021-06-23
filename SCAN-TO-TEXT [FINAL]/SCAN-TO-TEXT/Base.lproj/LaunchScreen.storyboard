@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="vpG-7A-A5F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoveInASnapLaunchIcon" highlightedImage="LoveInASnapLaunchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="f39-qw-RQe">
+                                <rect key="frame" x="94" y="129" width="176" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="9sk-Iq-Gly"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2020 TAUSEEF.DEV.All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="I6x-Ie-gl4">
+                                <rect key="frame" x="26" y="587" width="323" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="pZP-GU-vvP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCAN-TO-TEXT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Xak-pB-fUr">
+                                <rect key="frame" x="86" y="335" width="203" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="pNw-AC-BFL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCAN-TO-TEXT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5lR-9u-3r4">
+                                <rect key="frame" x="86" y="335" width="203" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VFB-YL-AUG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090300686657428741" green="0.094078116118907928" blue="0.16783511638641357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f39-qw-RQe" firstAttribute="top" secondItem="W0s-GW-zwQ" secondAttribute="top" constant="109" id="C5x-7G-Lcp"/>
+                            <constraint firstItem="Xak-pB-fUr" firstAttribute="leading" secondItem="W0s-GW-zwQ" secondAttribute="leading" constant="86" id="QBc-6b-Me2"/>
+                            <constraint firstItem="Xak-pB-fUr" firstAttribute="top" secondItem="f39-qw-RQe" secondAttribute="bottom" constant="8" id="TVF-MG-Ejh"/>
+                            <constraint firstAttribute="bottom" secondItem="I6x-Ie-gl4" secondAttribute="bottom" constant="20" symbolic="YES" id="V4Z-lN-ih3"/>
+                            <constraint firstItem="Xak-pB-fUr" firstAttribute="trailing" secondItem="5lR-9u-3r4" secondAttribute="trailing" id="bRK-eZ-YOK"/>
+                            <constraint firstItem="Xak-pB-fUr" firstAttribute="baseline" secondItem="5lR-9u-3r4" secondAttribute="baseline" id="cCn-Rf-Kll"/>
+                            <constraint firstItem="I6x-Ie-gl4" firstAttribute="leading" secondItem="W0s-GW-zwQ" secondAttribute="leading" constant="26" id="cq5-Rh-KY4"/>
+                            <constraint firstItem="Xak-pB-fUr" firstAttribute="leading" secondItem="5lR-9u-3r4" secondAttribute="leading" id="eKL-Fd-Ejk"/>
+                            <constraint firstItem="5lR-9u-3r4" firstAttribute="centerX" secondItem="I6x-Ie-gl4" secondAttribute="centerX" id="f3c-EW-4iQ"/>
+                            <constraint firstItem="5lR-9u-3r4" firstAttribute="centerX" secondItem="vpG-7A-A5F" secondAttribute="centerX" id="hpI-WV-iaZ"/>
+                            <constraint firstItem="W0s-GW-zwQ" firstAttribute="trailing" secondItem="f39-qw-RQe" secondAttribute="trailing" constant="105" id="qES-Kr-wm6"/>
+                            <constraint firstItem="f39-qw-RQe" firstAttribute="leading" secondItem="W0s-GW-zwQ" secondAttribute="leading" constant="94" id="rd5-ag-tzn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="W0s-GW-zwQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LoveInASnapLaunchIcon" width="81.839996337890625" height="99.599998474121094"/>
+    </resources>
+</document>

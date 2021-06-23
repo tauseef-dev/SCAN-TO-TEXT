@@ -1,0 +1,6 @@
+framework module Pods_SCAN_TO_TEXT {
+  umbrella header "Pods-SCAN-TO-TEXT-umbrella.h"
+
+  export *
+  module * { export * }
+}
